@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
                 <div className='flex items-center gap-4'>
                     <Image
                         className='h-6 dark:invert sm:h-8'
-                        src='https://nextjs.org/icons/next.svg'
+                        src='/next.svg'
                         alt='Next.js logo'
                         width={180}
                         height={38}
@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
                         rel='noopener noreferrer'>
                         <Image
                             className='invert dark:invert-0'
-                            src='https://nextjs.org/icons/vercel.svg'
+                            src='/vercel.svg'
                             alt='Vercel logomark'
                             width={20}
                             height={20}
@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
                     href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app'
                     target='_blank'
                     rel='noopener noreferrer'>
-                    <Image aria-hidden src='https://nextjs.org/icons/file.svg' alt='File icon' width={16} height={16} />
+                    <Image aria-hidden src='/file.svg' alt='File icon' width={16} height={16} />
                     Learn
                 </a>
                 <a
@@ -70,7 +70,7 @@ const HomePage: React.FC = () => {
                     rel='noopener noreferrer'>
                     <Image
                         aria-hidden
-                        src='https://nextjs.org/icons/window.svg'
+                        src='/window.svg'
                         alt='Window icon'
                         width={16}
                         height={16}
@@ -84,7 +84,7 @@ const HomePage: React.FC = () => {
                     rel='noopener noreferrer'>
                     <Image
                         aria-hidden
-                        src='https://nextjs.org/icons/globe.svg'
+                        src='/globe.svg'
                         alt='Globe icon'
                         width={16}
                         height={16}
