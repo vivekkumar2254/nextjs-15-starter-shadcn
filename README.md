@@ -8,8 +8,6 @@ Welcome to the **Next.js 15 Starter** repository! This starter template is built
 
 ![Next.js 15 Starter Shadcn](public/images/screenshot1.png)
 
-![Next.js 15 Starter Shadcn](public/images/screenshot2.png)
-
 ## 🚀 What's Included
 
 - **Next.js 15**
@@ -17,7 +15,7 @@ Welcome to the **Next.js 15 Starter** repository! This starter template is built
 - **TypeScript 5**
 - **ESLint 9**
 - **Prettier 3**
-- **Tailwind CSS 3**
+- **Tailwind CSS 4**
 - **Shadcn UI**
 - **App Directory**
 - **System, Light & Dark Mode**
