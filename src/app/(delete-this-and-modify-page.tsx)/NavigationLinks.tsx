@@ -17,11 +17,11 @@ const NavigationLinks = () => {
                 const active = link.href === '/' ? pathname === link.href : pathname.includes(link.href);
 
                 return (
-                    <Link key={link.href} href={link.href}>
-                        <button
-                            className={`${active ? 'bg-neutral-200 dark:bg-neutral-700' : 'bg-transparent'} rounded-xl px-3 py-2`}>
-                            {link.label}
-                        </button>
+                    <Link
+                        className={`${active ? 'bg-neutral-200 dark:bg-neutral-700' : 'bg-transparent'} rounded-xl px-3 py-2`}
+                        key={link.href}
+                        href={link.href}>
+                        {link.label}
                     </Link>
                 );
             })}
