@@ -8,6 +8,8 @@ Welcome to the **Next.js 15 Starter** repository! This starter template is built
 
 ![Next.js 15 Starter Shadcn](public/images/screenshot1.png)
 
+![Next.js 15 Starter Shadcn](public/images/screenshot2.png)
+
 ## 🚀 What's Included
 
 - **Next.js 15**
