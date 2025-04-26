@@ -16,7 +16,6 @@ const RECOMMENDED_EXTENSIONS: string[] = [
     'Gruntfuggly.todo-tree',
     'ChakrounAnas.turbo-console-log',
     'codeandstuff.package-json-upgrade',
-    'moalamri.inline-fold',
     'KnisterPeter.vscode-commitizen',
     'yzhang.markdown-all-in-one',
     'bradlc.vscode-tailwindcss',
