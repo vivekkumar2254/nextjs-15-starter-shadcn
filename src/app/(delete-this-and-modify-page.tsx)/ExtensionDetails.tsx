@@ -19,7 +19,8 @@ const RECOMMENDED_EXTENSIONS: string[] = [
     'KnisterPeter.vscode-commitizen',
     'yzhang.markdown-all-in-one',
     'bradlc.vscode-tailwindcss',
-    'austenc.tailwind-docs'
+    'austenc.tailwind-docs',
+    'stivo.tailwind-fold'
 ];
 
 interface ExtensionStatistics {

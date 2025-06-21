@@ -25,5 +25,6 @@
         "yzhang.markdown-all-in-one", // ? https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
         "bradlc.vscode-tailwindcss", // ? https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
         "austenc.tailwind-docs", // ? https://marketplace.visualstudio.com/items?itemName=austenc.tailwind-docs
+        "stivo.tailwind-fold" // ? https://marketplace.visualstudio.com/items?itemName=stivo.tailwind-fold
     ]
 }
