@@ -111,7 +111,7 @@ export function ChartPieInteractive() {
                             nameKey='month'
                             innerRadius={60}
                             strokeWidth={5}
-                            activeIndex={activeIndex}
+                            // activeIndex={activeIndex}
                             activeShape={({ outerRadius = 0, ...props }: PieSectorDataItem) => (
                                 <g>
                                     <Sector {...props} outerRadius={outerRadius + 10} />

@@ -1,9 +1,9 @@
 'use client';
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/registry/new-york-v4/ui/card';
-import { ChartConfig, ChartContainer, ChartLegend, ChartLegendContent } from '@/registry/new-york-v4/ui/chart';
+import { ChartConfig, ChartContainer, ChartLegendContent } from '@/registry/new-york-v4/ui/chart';
 
-import { Pie, PieChart } from 'recharts';
+import { Legend as ChartLegend, Pie, PieChart } from 'recharts';
 
 export const description = 'A pie chart with a legend';
 
@@ -53,7 +53,8 @@ export function ChartPieLegend() {
                     <PieChart>
                         <Pie data={chartData} dataKey='visitors' />
                         <ChartLegend
-                            content={<ChartLegendContent nameKey='browser' />}
+                            // @ts-ignore
+                            content={(props) => <ChartLegendContent nameKey='browser' {...props} />}
                             className='-translate-y-2 flex-wrap gap-2 *:basis-1/4 *:justify-center'
                         />
                     </PieChart>

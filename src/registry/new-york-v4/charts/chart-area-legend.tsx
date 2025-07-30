@@ -76,7 +76,7 @@ export function ChartAreaLegend() {
                             stroke='var(--color-desktop)'
                             stackId='a'
                         />
-                        <ChartLegend content={<ChartLegendContent />} />
+                        <ChartLegend content={<ChartLegendContent payload={[]} verticalAlign='middle' />} />
                     </AreaChart>
                 </ChartContainer>
             </CardContent>
