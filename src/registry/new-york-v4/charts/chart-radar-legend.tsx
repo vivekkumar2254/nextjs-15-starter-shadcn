@@ -48,7 +48,9 @@ export function ChartRadarLegend() {
                         data={chartData}
                         margin={{
                             top: -40,
-                            bottom: -10
+                            bottom: -10,
+                            left: 0,
+                            right: 0
                         }}>
                         <ChartTooltip cursor={false} content={<ChartTooltipContent indicator='line' />} />
                         <PolarAngleAxis dataKey='month' />

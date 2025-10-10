@@ -67,7 +67,7 @@ export function ChartPieLabelCustom() {
                                         textAnchor={props.textAnchor}
                                         dominantBaseline={props.dominantBaseline}
                                         fill='hsla(var(--foreground))'>
-                                        {payload.visitors}
+                                        {(payload as any).visitors}
                                     </text>
                                 );
                             }}

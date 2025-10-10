@@ -9,22 +9,7 @@ const withBundleAnalyzer = initializeBundleAnalyzer({
 
 // https://nextjs.org/docs/pages/api-reference/next-config-js
 const nextConfig: NextConfig = {
-    output: 'standalone',
-    outputFileTracingIncludes: {
-        "/*": ["./registry/**/*"],
-      },
-      images: {
-        remotePatterns: [
-          {
-            protocol: "https",
-            hostname: "avatars.githubusercontent.com",
-          },
-          {
-            protocol: "https",
-            hostname: "images.unsplash.com",
-          },
-        ],
-      },
+    output: 'standalone'
 };
 
 export default withBundleAnalyzer(nextConfig);
