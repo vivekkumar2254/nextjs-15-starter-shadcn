@@ -7,4 +7,5 @@ export * from '@/registry/new-york-v4/ui/table';
 export * from '@/registry/new-york-v4/ui/checkbox';
 export * from '@/registry/new-york-v4/ui/badge';
 export * from '@/registry/new-york-v4/ui/tabs';
+export * from '@/registry/new-york-v4/ui/input';
 
