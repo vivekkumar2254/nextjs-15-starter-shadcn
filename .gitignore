@@ -34,3 +34,36 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/*.so
+backend/*.json
+
+# Virtual Environment
+backend/.env
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Logs
+backend/*.log
+
+# Screenshots
+backend/*.png
+
+# IDE
+backend/.vscode/
+backend/.idea/
+
+# OS
+backend/.DS_Store
+backend/Thumbs.db
+
+# WebDriver downloads
+backend/chromedriver*
+backend/geckodriver*
