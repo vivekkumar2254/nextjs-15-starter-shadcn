@@ -8,12 +8,11 @@ import {
     CalendarClock,
     ChartLine,
     Clock3,
-    Desktop,
+    Monitor,
     FileBox,
     IdCard,
     Network,
-    Robot,
-    Sitemap,
+    Bot,
     Star
 } from 'lucide-react';
 
@@ -25,11 +24,11 @@ type Action = {
 };
 
 const actions: Action[] = [
-    { title: 'Org - Object Replication Monitor', Icon: Desktop, colorClass: 'bg-blue-600', href: '#' },
-    { title: 'INTEGRTR HR Bot', Icon: Robot, colorClass: 'bg-pink-600', href: '#' },
+    { title: 'Org - Object Replication Monitor', Icon: Monitor, colorClass: 'bg-blue-600', href: '#' },
+    { title: 'INTEGRTR HR Bot', Icon: Bot, colorClass: 'bg-pink-600', href: '#' },
     { title: 'Delegate My Workflows', Icon: CalendarCheck2, colorClass: 'bg-teal-600', href: '#' },
     { title: 'View My Profile', Icon: IdCard, colorClass: 'bg-purple-600', href: '#' },
-    { title: 'View Org Chart', Icon: Sitemap, colorClass: 'bg-zinc-600', href: '#' },
+    { title: 'View Org Chart', Icon: Network, colorClass: 'bg-zinc-600', href: '#' },
     { title: 'View Team Absences', Icon: CalendarClock, colorClass: 'bg-blue-600', href: '#' },
     { title: 'View My Time Sheet', Icon: Clock3, colorClass: 'bg-pink-600', href: '#' },
     { title: 'View Report Center', Icon: ChartLine, colorClass: 'bg-teal-600', href: '#' },
